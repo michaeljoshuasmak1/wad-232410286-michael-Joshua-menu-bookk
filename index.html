@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kongkow Cafe Menu</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+.header {
+background-color: #d9534f;
+color: white;
+padding: 10px;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+}
+.banner {
+width: 100%;
+height: 50%;
+background-image: url('banner-image.jpg'); /* Replace with actual banner image URL */
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.banner h2 {
+color: white;
+font-size: 32px;
+background: rgba(0, 0, 0, 0.5);
+padding: 10px 20px;
+border-radius: 5px;
+}
+.menu-container {
+padding: 20px;
+text-align: center;
+}
+.menu-title {
+font-size: 26px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.menu-subtitle {
+color: gray;
+font-size: 14px;
+margin-bottom: 20px;
+}
+.menu-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 20px;
+justify-items: center;
+padding: 0 20px;
+}
+.menu-item {
+width: 50%;
+border: 1px solid #ddd;
+border-radius: 5px;
+overflow: hidden;
+text-align: center;
+background: #f8f8f8;
+transition: transform 0.3s ease;
+}
+.menu-item:hover {
+transform: translateY(-5px);
+}
+.menu-item img {
+width: 100%;
+height: auto;
+}
+.menu-item h3 {
+font-size: 18px;
+margin: 10px 0;
+}
+.menu-item p {
+font-size: 14px;
+color: #666;
+padding: 0 10px;
+height: 40px;
+}
+.menu-item .price {
+font-size: 16px;
+font-weight: bold;
+margin: 10px 0;
+color: #d9534f;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+div.c {
+  font-size: 150%;
+}
+div.b {
+  font-size: large;
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header Section -->
+<div class="header">Kongkow Cafe</div>
+
+<!-- Banner Section -->
+<div class="banner">
+<img src="asset/menu.png" style="width: 100%">
+</div>
+
+<!-- Menu Title Section -->
+<div class ="menu-container">
+<div class="c">Friends, Food, Fun</div>
+<div class="b">Kongcow cafe Menu 2024</div>
+<div ="menu-title">All prices are in thousand rupiah </div>
+
+<!-- Menu Grid -->
+<div class="flex-container">
+<!-- Menu Item 1 -->
+<div class ="menu-item">
+<img src="asset/avocado.png" alt="Avocado Pesto Salad">
+<h3>Avocado Pesto Salad</h3>
+<p>“Home-grown vegetables with loads of avocado, topped with mouthwatering pesto salad” </p>
+<div class="price">
+<p>35 </p>
+</div>
+<div class="price">
+<p>+ Grilled Salmon 55 </p>
+</div>
+</div>
+
+<!-- Menu Item 2 -->
+<div class ="menu-item">
+<img src="asset/pizza.png" alt="Triple Cheese Pizza">
+<h3>Triple Cheese Pizza</h3>
+<p>“Indulge yourself in this simple yet delicious delicacy”</p>
+<p>1 slice       15 </p>
+<p>pan(6 slices) 60 </p>
+</div>
+
+<!-- Menu Item 3 -->
+<div class ="menu-item">
+<img src="asset/wine.png" alt="Seasonal Wine">
+<h3>Seasonal Wine</h3>
+<p>“A great meal becomes perfect when combined with a good wine”</p>
+<p>Glass    100 </p>
+<p>bottle   1500 </p>
+</div>
+
+<!-- Menu Item 4 -->
+<div class="menu-item">
+<img src="asset/coffee.png" alt="Coffee">
+<h3>Coffee</h3>
+<p>“The best coffee the land of Indonesia”</p>
+<p>americano  25</p>
+<p>Latte      30</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
